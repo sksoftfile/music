@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-10/css/all.css" integrity="sha512-Dj9pt3sZROOuTTs9S89ykGZeu1XQgWKg3DVpu5tZALApsrWdd3tnVjTclUuVONaHM4O8GgCnjSbHlTKXrd2OWg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href = 'css/style.css'/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main_div"> 
+        <div class="music_container">
+            <h2 id='title'>Kaliya</h2>
+            <h3 id = 'author'>strong music</h3>
+            <div class="img_container">
+                <img src="images/download.gif"/>
+            </div>
+           
+            <!-- </controls> -->
+            <div>
+              <audio src='http://stream.zeno.fm/s8v0hcywm18uv' controls="controls" autoplay=true ></audio>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // const music = document.querySelector("audio");
+    // const play = document.getElementById("play");
+    // const img =  document.querySelector("img");
+    // const arttist = document.getElementById('author');
+    // const title = document.getElementById('title');
+    // const prev = document.getElementById('prev');
+    // const next = document.getElementById('next');
+
+    // let isplaying = true;
+
+//     const songs = [
+//         {
+//         name:"music1",
+//         img:"img1",
+//         title:"lotas lane",
+//         arttist:"theloylist",
+//     },
+//     {
+//         name:"music2",
+//         img:"img2",
+//         title:"dhire",
+//         arttist:"sksingh",
+//     },
+//     {
+//         name:"music3",
+//         img:"img3",
+//         title:"breakup song",
+//         arttist:"shashank",
+//     },
+// ]
+    // for play music
+//       const playmusic = () =>{
+//         isplaying = true;
+//         music.play();
+//         play.classList.replace('fa-play' ,'fa-pause');
+//        }
+//        //for pausemusic
+//        const pausemusic = () =>{
+//         isplaying = false;
+//         music.pause();
+//         play.classList.replace('fa-pause' ,'fa-play');
+//        }
+//     play.addEventListener("click" , () => {
+//     //     if(isplaying){
+//     //      pausemusic();
+//     //     }else{
+//     //    playmusic();
+//     //     }
+//         isplaying ? pausemusic(): playmusic();
+//     });
+
+//    const loadsong = (songs) => {
+//        title.textContent = songs.title;
+//        arttist.textContent = songs.title;
+//        title.textContent = songs.arttist;
+//        music.src= "music/"+ songs.name + ".mp3";
+//        img.src = "images/"+ songs.img + ".jpg";
+//    }
+//    let songindex = 0;
+//     // loadsong(songs[2]);
+//       const nextSong = () => {
+//         songindex = (songindex + 1) % songs.length;
+//           loadsong(songs[songindex]);
+//       }
+//       let songindex2 = 0;
+//       const prevSong = () => {
+//         songindex = (songindex - 1) + songs.length % songs.length;
+//         loadsong(songs[songindex2]);
+//       }
+//      next.addEventListener("click" ,nextSong);
+//      prev.addEventListener("click",prevSong);
+</script>
+</html>
